@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require_relative "../lib/holiday_generator"
+
+generator = HolidayGenerator.new
+generator.generate_plan
